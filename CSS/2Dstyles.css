@@ -1,0 +1,25 @@
+/* Transformations
+functions
+
+--rotate () - rotation
+--scale() - making larger or smaller
+--skew()  for tilting right or left
+--translate () for positioning on the screen
+*/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: gold;
+}
+
+.box:hover {
+  transform: rotate(45deg) translateY(50px);
+}
